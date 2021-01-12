@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import ContadorValor from './components/ContadorValor'
+import Contador from './components/Contador'
 
 function App() {
   return (
     <div className="App">
-      <ContadorValor contador={111} />
+      <Contador valorInicial={111} />
     </div>
   );
 }
